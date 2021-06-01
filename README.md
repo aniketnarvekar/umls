@@ -1,0 +1,3 @@
+The project data from local postgres database with pre installed UMLS. It fetches that data from umls and return in json format.
+
+Work in progress...

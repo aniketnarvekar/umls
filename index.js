@@ -10,8 +10,8 @@ app.listen (port, () => {
     console.log (`App running on port ${port}.`);
 });
 
-app.get('/greeting', (req, res) => {
-    res.json({greeting: 'Hello World'});
+app.get('/', (req, res) => {
+    res.json({greeting: 'Hello World!!!'});
 })
 
 app.get ('/api/metathesaurus/relation', async (request, response) => {
